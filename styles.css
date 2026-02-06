@@ -1,50 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #ffa6c5;
-  font-family: 'Arial', sans-serif;
-  flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-.container {
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #d32f2f;
-  font-family: 'Open Sans', sans-serif;  /* Apply Open Sans */
-  font-weight: 700;  /* Make it bold */
-}
-
-.buttons {
-  margin-top: 20px;
-}
-
-.yes-button, .no-button {
-  font-size: 1.5em;
-  padding: 10px 20px;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.yes-button {
-  background-color: #4caf50;
-  margin-right: 10px;
-}
-
-.no-button {
-  background-color: #f44336;
-}
-
-.gif_container img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
+.closed-message {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
 }
